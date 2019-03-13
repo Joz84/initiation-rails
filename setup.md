@@ -7,7 +7,7 @@
 - Install Ruby
 - Install Postgres
 - Install Rails
-_ Install Heroku
+- Install Heroku
 
 
 ## Command Line Tools
@@ -251,7 +251,9 @@ Have you signed up to Heroku? If not, [do it right away](https://signup.heroku.c
 
 Please run the following line:
 
+```bash
 brew install heroku/brew/heroku
+```
 
 ## Congratulation, It's done!!!
 
