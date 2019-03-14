@@ -32,16 +32,6 @@ Otherwise, it will open a window asking you if you want to install some software
 
 ![](images/xcode-select-install.png)
 
-While it's downloading, you can go on with configuring your GitHub account, but **stop** before Homebrew. You'll need the command line tools installed for that step.
-
-
-## GitHub account
-
-Have you signed up to GitHub? If not, [do it right away](https://github.com/join).
-
-:point_right: **[Upload a picture](https://github.com/settings/profile)** and put your name correctly on your GitHub account. This is important as we'll use an internal dashboard with your avatars. Please do it **now**.
-
-
 ## Homebrew
 
 On Mac, you need to install [Homebrew](http://brew.sh/) which is a Package Manager.
@@ -92,6 +82,8 @@ Again, make sure that Sublime Text is there, not in the disk image you downloade
 
 
 ## GitHub
+
+Have you signed up to GitHub? If not, [do it right away](https://github.com/join).
 
 We need to generate SSH keys which are going to be used by GitHub and Heroku
 to authenticate you. Think of it as a way to log in, but different from the
@@ -144,6 +136,11 @@ ssh-add ~/.ssh/id_ed25519
 Don't be in a rush, take time to [read this article](http://sebastien.saunier.me/blog/2015/05/10/github-public-key-authentication.html) to get a better
 understanding of what those keys are used for.
 
+Finaly, install hub to your computer communicate with github:
+
+```bash
+brew install hub
+```
 
 ## Installing Ruby (with [rbenv](https://github.com/sstephenson/rbenv))
 
@@ -198,7 +195,12 @@ You should see something starting with `ruby 2.5.3p`. If not, try this:
 ```bash
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
-source
+rbenv global 2.5.3
+```
+and retry
+
+```bash
+ruby -v
 ```
 
 ## Installing some gems
