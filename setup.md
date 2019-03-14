@@ -234,7 +234,7 @@ psql -d postgres
 If you enter a new prompt like this one, you're good!
 
 ```bash
-psql (9.5.3)
+psql (11.2)
 Type "help" for help.
 
 postgres=#
