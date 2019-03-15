@@ -2,34 +2,40 @@
 
 # EXO1
 
+Put a list of questions to your user and store his answers in a array.
+Example:
+
 ```bash
- > A t'il les yeux clairs ?
+ > Does it have clear eyes?
  yes
- > Est ce un homme ?
+ > Is this a male?
  no
- > Est t'il vegan ?
+ > Is he vegan?
  no
- > Es tu originaire d'aquitaine ?
+ > Is he from Aquitaine?
  no
- > Yours answers :
- [yes, no, no, no]
+ > Yours answers: [yes, no, no, no]
 ```
 
 # EXO2
 
+Display a todo list, suggest the delete user an accomplished task and display the updated todo list
+Example:
+
 ```bash
- > Votre todo Liste
+ > Your todo List
  > ["course", "menage", "lessive"]
- > Quelle tache avez vous accomplie?
+ > What task have you accomplished?
  menage
- > Votre liste réactualisée
- > ["course", "lessive"]
+ > Your updated todo list : ["course", "lessive"]
 ```
 
 ## HASHS
 
-
 # EXO3
+
+You display the user's calendar. you suggest adding a booking
+Example:
 
 ```bash
  > Your agenda :
@@ -68,13 +74,6 @@
 Exo 1 with each
 
 ```bash
-questions = [
-  "A t'il les yeux clairs ?",
-  "Est ce un homme ?",
-  "Est t'il vegan ?",
-  "Es tu originaire d'aquitaine ?"
-]
-
 >  A t'il les yeux clairs ?
 yes
 >  Est ce un homme ?
@@ -86,3 +85,33 @@ no
 > Yours answers :
 [yes, no, no, no]
 ```
+
+help: you need this array in your code :
+
+```bash
+questions = [
+  "A t'il les yeux clairs ?",
+  "Est ce un homme ?",
+  "Est t'il vegan ?",
+  "Es tu originaire d'aquitaine ?"
+]
+```
+
+# EXO6
+
+```bash
+> write sentence
+To be or not to be, that is the question!
+> Your sentence has 41 characters
+```
+
+Help: You need to split your string to array (https://ruby-doc.org/core-2.6.2/String.html)
+
+# EXO7
+
+```bash
+> write sentence
+Read the fucking manual
+> Your acronym : RTFM
+```
+
