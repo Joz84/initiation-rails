@@ -9,7 +9,6 @@
 </ul>
 ## Day 2: Array, Hash and Each method
 <ul>
-  <li><a href="day2/setup.md">Setup</a></li>
   <li><a href="day2/livecode.md">Live Code</a></li>
   <li><a href="day2/exercices.md">Exercices</a></li>
   <li><a href="day2/solutions/">Solutions</a></li>
