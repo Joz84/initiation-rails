@@ -53,6 +53,9 @@ Example:
 ```
 # EXO4
 
+You display the last user's order. you suggest updating a order status from pending to payed.
+Example:
+
 ```bash
  > Your order is :
  > { "date" => "12/03/2019",
@@ -71,7 +74,8 @@ Example:
 
 # EXO5
 
-Exo 1 with each
+Exo 1 but you must use each method.
+Example:
 
 ```bash
 >  A t'il les yeux clairs ?
@@ -99,6 +103,9 @@ questions = [
 
 # EXO6
 
+Find the number of letters in a sentence (space and punctuation included)
+Example:
+
 ```bash
 > write sentence
 To be or not to be, that is the question!
@@ -108,6 +115,9 @@ To be or not to be, that is the question!
 Help: You need to split your string to array (https://ruby-doc.org/core-2.6.2/String.html)
 
 # EXO7
+
+Find the acronym of a sentence
+Example:
 
 ```bash
 > write sentence
