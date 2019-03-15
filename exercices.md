@@ -61,5 +61,28 @@
  }
 ```
 
+## EACH
 
+# EXO5
 
+Exo 1 with each
+
+```bash
+questions = [
+  "A t'il les yeux clairs ?",
+  "Est ce un homme ?",
+  "Est t'il vegan ?",
+  "Es tu originaire d'aquitaine ?"
+]
+
+>  A t'il les yeux clairs ?
+yes
+>  Est ce un homme ?
+no
+>  Est t'il vegan ?
+no
+>  Es tu originaire d'aquitaine ?
+no
+> Yours answers :
+[yes, no, no, no]
+```
