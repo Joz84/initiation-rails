@@ -1,27 +1,29 @@
-### Array
+# Day 2: Array, Hash and Each method
+
+## Array
 Array => List
 
-# Create
+### Create
 ```ruby
 empty_array = []
 students = [ "Steve", "Pauline", "Megane" ]
 # index =>    0         1          2
 ```
 
-# Read
+### Read
 ```ruby
 p students
 p students[1]
 ```
 
-# Update
+### Update
 ```ruby
 students[2] = "Meghane"
 students << "Thomas"
 p students
 ```
 
-# Delete
+### Delete
 ```ruby
 students.delete("Steve")
 p students
@@ -29,7 +31,7 @@ students.delete_at(1)
 p students
 ```
 
-# Other methods
+### Other methods
 https://ruby-doc.org/core-2.6.2/Array.html
 
 ```ruby
@@ -38,11 +40,13 @@ p students.shuffle
 p students
 ```
 
-### Hash
+# Day 2: Array, Hash and Each method
+
+## Hash
 Hash => Dictionary
 
 
-# Create
+### Create
 ```ruby
 empty_hash = {}
 fruits = {
@@ -53,13 +57,13 @@ fruits = {
 #   keys   =>   values
 ```
 
-# Read
+### Read
 ```ruby
 p fruits
 p fruits["Banane"]
 ```
 
-# Update
+### Update
 ```ruby
 fruits["Avocat"] = "C'est un fruit plutôt vert"
 p fruits
@@ -67,20 +71,20 @@ fruits["Pamplemousse"] = "C'est un fruit plutôt orange"
 p fruits
 ```
 
-# Delete
+### Delete
 ```ruby
 fruits.delete("Banane")
 p fruits
 ```
 
-# Other methods
+### Other methods
 https://ruby-doc.org/core-2.6.2/Hash.html
 ```ruby
 p fruits.keys
 p fruits.values
 ```
 
-# Other example
+### Other example
 ```ruby
 student = {
   "name" => "Jo",
@@ -90,10 +94,12 @@ student = {
 p student["name"]
 ```
 
-### Each
+# Day 2: Array, Hash and Each method
+
+## Each
 Each => Loop (method)
 
-# Exemple: Say Hello!
+### Exemple: Say Hello!
 
 Result
 ```bash
@@ -109,7 +115,7 @@ students.each do |student|
 end
 ```
 
-# Exemple: Average
+### Exemple: Average
 
 ```ruby
 rates = [ 4, 8, 7, 1 ]

@@ -1,6 +1,8 @@
+# Day 2: Array, Hash and Each method
+
 ## ARRAYS
 
-# EXO1
+### EXO1
 
 Put a list of questions to your user and store his answers in a array.
 Example:
@@ -17,7 +19,7 @@ Example:
  > Yours answers: [yes, no, no, no]
 ```
 
-# EXO2
+### EXO2
 
 Display a todo list, suggest the delete user an accomplished task and display the updated todo list
 Example:
@@ -32,7 +34,7 @@ Example:
 
 ## HASHS
 
-# EXO3
+### EXO3
 
 You display the user's calendar. you suggest adding a booking
 Example:
@@ -51,7 +53,7 @@ Example:
      "20/03/2020" => "end of hollidays"
  }
 ```
-# EXO4
+### EXO4
 
 You display the last user's order. you suggest updating a order status from pending to payed.
 Example:
@@ -70,9 +72,9 @@ Example:
  }
 ```
 
-## EACH
+## EACH METHOD
 
-# EXO5
+### EXO5
 
 Exo 1 but you must use each method.
 Example:
@@ -101,7 +103,7 @@ questions = [
 ]
 ```
 
-# EXO6
+### EXO6
 
 Find the number of letters in a sentence (space and punctuation included)
 Example:
@@ -114,7 +116,7 @@ To be or not to be, that is the question!
 
 Help: You need to split your string to array (https://ruby-doc.org/core-2.6.2/String.html)
 
-# EXO7
+### EXO7
 
 Find the acronym of a sentence
 Example:
