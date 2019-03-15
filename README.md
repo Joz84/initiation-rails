@@ -7,6 +7,7 @@
   <li><a href="day1/exercices.md">Exercices</a></li>
   <li><a href="day1/solutions/">Solutions</a></li>
 </ul>
+
 ## Day 2: Array, Hash and Each method
 <ul>
   <li><a href="day2/livecode.md">Live Code</a></li>
