@@ -1,6 +1,6 @@
 # Day 2: Array, Hash and Each method
 
-## Array
+## ARRAY
 Array => List
 
 ### Create
@@ -40,9 +40,7 @@ p students.shuffle
 p students
 ```
 
-# Day 2: Array, Hash and Each method
-
-## Hash
+## HASH
 Hash => Dictionary
 
 
@@ -94,9 +92,8 @@ student = {
 p student["name"]
 ```
 
-# Day 2: Array, Hash and Each method
+## EACH METHOD
 
-## Each
 Each => Loop (method)
 
 ### Exemple: Say Hello!
