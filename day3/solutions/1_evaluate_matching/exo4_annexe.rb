@@ -1,7 +1,7 @@
-legumes = ["Carotte", "Poireau", "Courgette"]
+vegetables = ["Carotte", "Poireau", "Courgette"]
 colors = ["Orange", "Blanche", "Verte"]
 
-legumes.each_with_index do |legume, index|
+vegetables.each_with_index do |vegetable, index|
   color = colors[index]
-  puts "Le légume nommé " + legume + " est e couleur " + color
+  puts "Le légume nommé " + vegetable + " est e couleur " + color
 end

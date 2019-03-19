@@ -44,3 +44,21 @@ output:
 ```bash
 > 3
 ```
+
+### EXO 4
+
+Display the vegetables and its associated color
+Use:
+```bash
+vegetables = ["Carotte", "Poireau", "Courgette"]
+colors = ["Orange", "Blanche", "Verte"]
+```
+
+output:
+```bash
+Le légume nommé Carotte est e couleur Orange
+Le légume nommé Poireau est e couleur Blanche
+Le légume nommé Courgette est e couleur Verte
+```
+
+
