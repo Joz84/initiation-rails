@@ -62,4 +62,77 @@ Le légume nommé Poireau est de couleur Blanche
 Le légume nommé Courgette est de couleur Verte
 ```
 
+### EXO 4
 
+Display the matching between Game answers and Pauline's answers
+help : see each_with_index on ruby doc
+Use:
+```bash
+game_answers = [ "yes",  "yes", "no", "yes" ]
+pauline_answers = [ "yes",  "yes", "no", "no" ]
+```
+
+output:
+```bash
+Game | Pauline
+yes | yes
+yes | yes
+no | no
+yes | no
+```
+
+### EXO 5
+
+Display the matching between Game answers and Pauline's answers
+just if Game answer and Pauline's answer are the same.
+Use:
+```bash
+game_answers = [ "yes",  "yes", "no", "yes" ]
+pauline_answers = [ "yes",  "yes", "no", "no" ]
+```
+
+output:
+```bash
+Game | Pauline
+yes | yes
+yes | yes
+no | no
+```
+
+### EXO 6
+
+Display the number of matchings between Game answers and Pauline's answers
+Use:
+```bash
+game_answers = [ "yes",  "yes", "no", "yes" ]
+pauline_answers = [ "yes",  "yes", "no", "no" ]
+```
+
+output:
+```bash
+3
+```
+
+### EXO 7
+
+Display the number of matchings between Game answers and Pauline's answers
+but you must use this structure
+Use:
+```bash
+game_answers = [ "yes",  "yes", "no", "yes" ]
+pauline_answers = [ "yes",  "yes", "no", "no" ]
+
+def evaluate_matching_between(game_answers, student_answers)
+
+  # ???
+
+  matching
+end
+
+puts evaluate_matching_between(game_answers, pauline_answers)
+```
+
+output:
+```bash
+3
+```
