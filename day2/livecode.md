@@ -1,5 +1,20 @@
 # Day 2: Array, Hash and Each method
 
+Remarque: Pour suivre le live code, taper ca dans le terminal :
+
+```bash
+cd
+cd Desktop/coding_skills/day2
+touch livecode.rb
+```
+
+Puis une fois les modifications faites ne pas oublier de sauvegarder.
+Pour executer le programme dans le terminal :
+
+```bash
+ruby livecode.rb
+```
+
 ## ARRAY
 Array => List
 
