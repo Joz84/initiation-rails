@@ -45,7 +45,7 @@ output:
 > 3
 ```
 
-### EXO 4
+### EXO 4 Annexe
 
 Display the vegetables and its associated color
 Use:
