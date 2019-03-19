@@ -48,6 +48,7 @@ output:
 ### EXO 4 Annexe
 
 Display the vegetables and its associated color
+help : see each_with_index on ruby doc
 Use:
 ```bash
 vegetables = ["Carotte", "Poireau", "Courgette"]
