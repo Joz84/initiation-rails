@@ -56,9 +56,9 @@ colors = ["Orange", "Blanche", "Verte"]
 
 output:
 ```bash
-Le légume nommé Carotte est e couleur Orange
-Le légume nommé Poireau est e couleur Blanche
-Le légume nommé Courgette est e couleur Verte
+Le légume nommé Carotte est de couleur Orange
+Le légume nommé Poireau est de couleur Blanche
+Le légume nommé Courgette est de couleur Verte
 ```
 
 
