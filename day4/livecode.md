@@ -31,7 +31,9 @@ rails s
 Open browser at http://localhost:3000/
 
 if you want continue the process, you need to cut the server with "control" + "c"
+
 But if you want see the site in the browser reuse 
+
 Terminal:
 ```bash
 rails s
