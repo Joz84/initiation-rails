@@ -3,6 +3,9 @@
 Terminal:
 ```bash
 cd ~/Desktop/coding_skills/
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
+rbenv global 2.5.3
 ```
 
 Terminal:
