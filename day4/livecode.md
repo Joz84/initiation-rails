@@ -17,6 +17,11 @@ cd akinator
 
 Terminal:
 ```bash
+rails db:create
+```
+
+Terminal:
+```bash
 rails s
 ```
 
