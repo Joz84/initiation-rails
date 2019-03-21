@@ -3,6 +3,9 @@
 Terminal:
 ```bash
 cd ~/Desktop/coding_skills/
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
+rbenv global 2.5.3
 ```
 
 Terminal:
@@ -17,10 +20,24 @@ cd akinator
 
 Terminal:
 ```bash
+rails db:create
+```
+
+Terminal:
+```bash
 rails s
 ```
 
 Open browser at http://localhost:3000/
+
+if you want continue the process, you need to cut the server with "control" + "c"
+
+But if you want see the site in the browser reuse 
+
+Terminal:
+```bash
+rails s
+```
 
 Open sublime text
 
