@@ -80,13 +80,13 @@ Exo 1 but you must use each method.
 Example:
 
 ```bash
->  A t'il les yeux clairs ?
+>  Does it have clear eyes?
 yes
->  Est ce un homme ?
+>  Is this a male?
 no
->  Est t'il vegan ?
+>  Is he vegan?
 no
->  Es tu originaire d'aquitaine ?
+>  Is he from Aquitaine?
 no
 > Yours answers :
 [yes, no, no, no]
