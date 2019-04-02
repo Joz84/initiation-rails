@@ -96,10 +96,10 @@ help: you need this array in your code :
 
 ```bash
 questions = [
-  "A t'il les yeux clairs ?",
-  "Est ce un homme ?",
-  "Est t'il vegan ?",
-  "Es tu originaire d'aquitaine ?"
+ "Does it have clear eyes?",
+ "Is this a male?",
+ "Is he vegan?",
+ "Is he from Aquitaine?"
 ]
 ```
 
