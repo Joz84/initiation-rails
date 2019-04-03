@@ -1,16 +1,4 @@
 # Coding Skills: Ruby on Rails
-## Plan
-### Day 1: Setup, Git and Simple objects
-<ul>
-  <li><a href="day1/setup.md">Setup</a></li>
-  <li><a href="day1/livecode.md">Live Code</a></li>
-  <li><a href="day1/exercices.md">Exercices</a></li>
-  <li><a href="day1/solutions/">Solutions</a></li>
-</ul>
 
-### Day 2: Array, Hash and Each method
-<ul>
-  <li><a href="day2/livecode.md">Live Code</a></li>
-  <li><a href="day2/exercices.md">Exercices</a></li>
-  <li><a href="day2/solutions/">Solutions</a></li>
-</ul>
+This initiation introduces the basics of ruby language and algorythmia. It then presents how to initiate a REST project with the rails framework. The main theme of the course is the creation of the game "Guess Who" personalized. You can see an example at this address: <a href="https://en.wikipedia.org/wiki/Guess_Who%3F">guesswho.io</a>
+

@@ -14,7 +14,7 @@
 
 Open the Terminal (click the magnifying glass icon in the top right corner of your screen and type `Terminal`):
 
-![](images/open-terminal.png)
+![](../images/open-terminal.png)
 
 Copy-paste the following command in the terminal and hit Enter.
 
@@ -30,7 +30,7 @@ If you'll receive the following message, you can just skip this step and go to n
 
 Otherwise, it will open a window asking you if you want to install some software. Accept and wait. If it fails, try again the command line above, sometimes the Apple servers are overloaded.
 
-![](images/xcode-select-install.png)
+![](../images/xcode-select-install.png)
 
 ## Homebrew
 
