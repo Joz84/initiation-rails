@@ -19,16 +19,20 @@ end
 Terminal:
 ```bash
 rails routes
-   Prefix Verb   URI Pattern                Controller#Action
-     root GET    /                          pages#home
-    games GET    /games(.:format)           games#index
-          POST   /games(.:format)           games#create
- new_game GET    /games/new(.:format)       games#new
-edit_game GET    /games/:id/edit(.:format)  games#edit
-     game GET    /games/:id(.:format)       games#show
-          PATCH  /games/:id(.:format)       games#update
-          PUT    /games/:id(.:format)       games#update
-          DELETE /games/:id(.:format)       games#destroy
+```
+
+ouput:
+```bash
+>   Prefix Verb   URI Pattern                Controller#Action
+>     root GET    /                          pages#home
+>    games GET    /games(.:format)           games#index
+>          POST   /games(.:format)           games#create
+> new_game GET    /games/new(.:format)       games#new
+>edit_game GET    /games/:id/edit(.:format)  games#edit
+>     game GET    /games/:id(.:format)       games#show
+>         PATCH  /games/:id(.:format)       games#update
+>          PUT    /games/:id(.:format)       games#update
+>          DELETE /games/:id(.:format)       games#destroy
 [...]
 ```
 

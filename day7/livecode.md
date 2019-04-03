@@ -19,11 +19,14 @@ end
 Terminal:
 ```bash
  rails db:migrate
+```
 
-== 20190402223056 CreateGames: migrating ======================================
--- create_table(:games)
-   -> 0.0218s
-== 20190402223056 CreateGames: migrated (0.0219s) =============================
+output:
+```bash
+> == 20190402223056 CreateGames: migrating ======================================
+> -- create_table(:games)
+>   -> 0.0218s
+> == 20190402223056 CreateGames: migrated (0.0219s) =============================
 ```
 
 Sublime text: /app/controllers/games_controller.rb
