@@ -119,12 +119,6 @@ Sublime text: /app/views/games/show.html.erb
 <h1>Results</h1>
 
 <ol>
-  <% @answers.each_with_index do |answer, index| %>
-    <li>Answer <%= index %> : <%= answer %></li>
-  <% end %>
-</ol>
-
-<ol>
   <% @students.each do |student| %>
     <% matching = @game.evaluate_matching_between(@game["answers"], student["answers"]) %>
     <li><%= student["name"] %> with matching of <%= matching %>/4</li>
