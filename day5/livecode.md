@@ -1,3 +1,5 @@
+![](../images/sitemap.png)
+
 Terminal:
 ```bash
 rails generate controller Games create edit update show

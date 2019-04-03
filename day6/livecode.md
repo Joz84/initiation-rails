@@ -25,7 +25,7 @@ Sublime text: /app/controllers/games_controller.rb
   end
 ```
 
-![](images/screenshot-1.png)
+![](../images/screenshot-1.png)
 
 Sublime text: /app/controllers/games_controller.rb
 ```ruby
@@ -45,7 +45,7 @@ Sublime text: /app/controllers/games_controller.rb
   end
 ```
 
-![](images/screenshot-2.png)
+![](../images/screenshot-2.png)
 
 Sublime text: /app/controllers/games_controller.rb
 ```ruby
@@ -71,7 +71,7 @@ Sublime text: /app/controllers/games_controller.rb
   end
 ```
 
-![](images/screenshot-3.png)
+![](../images/screenshot-3.png)
 
 Sublime text: /app/controllers/games_controller.rb
 ```ruby
