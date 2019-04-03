@@ -80,13 +80,13 @@ Exo 1 but you must use each method.
 Example:
 
 ```bash
->  A t'il les yeux clairs ?
+>  Does it have clear eyes?
 yes
->  Est ce un homme ?
+>  Is this a male?
 no
->  Est t'il vegan ?
+>  Is he vegan?
 no
->  Es tu originaire d'aquitaine ?
+>  Is he from Aquitaine?
 no
 > Yours answers :
 [yes, no, no, no]
@@ -96,10 +96,10 @@ help: you need this array in your code :
 
 ```bash
 questions = [
-  "A t'il les yeux clairs ?",
-  "Est ce un homme ?",
-  "Est t'il vegan ?",
-  "Es tu originaire d'aquitaine ?"
+ "Does it have clear eyes?",
+ "Is this a male?",
+ "Is he vegan?",
+ "Is he from Aquitaine?"
 ]
 ```
 
