@@ -8,6 +8,7 @@
 ### GITHUB
 Terminal:
 ```bash
+git init                  # initialize git in project
 hub create                # Create an empty repository on github online with the same name
 git add .                 # Add all modified files to save
 git commit -m "message"   # Give a message
